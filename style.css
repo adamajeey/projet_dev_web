@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;  /* couleur arrière-plan pour le body*/
+  }
+
+  h1 {
+    color: black;
+    text-align: center;   /* mettre le titre au centre et de couleur noir*/
+  }
+
+.a     /* element qui regroupe les bloques*/
+{
+    display: flex;    /* aligne les elements de maniere successive*/ 
+    flex-wrap: wrap;  /* permet  faire un retour a la ligne si les elements alignés atteignent la limite*/
+    width: auto;      /* mettre la largeur en auto */
+    justify-content: center; /* centrer les elements de facon vertical*/
+}
+
+p{       /* element des bloques*/
+    margin: auto;     /* les marges sont en automatique*/
+    writing-mode: vertical-lr; /* permet de changer la position des element des bloques */
+    margin-top: 75px;    /* permet de faire descendre les element des bloques a 75% c'est a dire au milieu*/
+    font-size: 20px; /* agrandire la taille d'ecriture des elements des bloque */
+    font-weight: bold; /* pour mettre en gras les ecriture*/
+}
+.Adama{     /* les bloque*/
+    margin: 5px;   /* permet de creer une marge en dehors des bloques*/
+    background-color: white; /* couleur des arrière-plan des bloque*/
+    width: 49%; /* Ici c'est la largeur des bloques à 49%*/
+    height: 250px; /* Ici c'est hauteur qui est à 250px*/
+    border: 1px solid black; /* les bordures des bloques en couleur noir à 1px*/
+    border-radius: 10px;  /* arrondir les cotés des bloques*/
+}
