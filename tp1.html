@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projet</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script> 
+        <title>Projet</title>
+    </head>
+        <body>
+            <img src="images.jpeg" width="100%" height="325px">
+            <h1>Mon premier tp: Adama Dieye</h1>
+            <div id="a">
+                <div class="Adama" id="bloc1"> <p id="txt1">bloc 1</p></div>
+                <div class="Adama" id="bloc2"> <p id="txt2">bloc 2</p></div>
+                <div class="Adama" id="bloc3"> <p id="txt3">bloc 3</p></div>
+                <div class="Adama" id="bloc4"> <p id="txt4">bloc 4</p></div> 
+            </div>   
+            <button id="button" onclick="changement()">clic ici</button> 
 
-    <img src="images.jpeg" width="100%" height="350px">
-    <h1>Mon premier tp: Adama Dieye</h1>
-
-<div class="a">
-    <div class="Adama"> <p>bloc 1</p></div>
-    <div class="Adama"> <p>bloc 2</p></div>
-    <div class="Adama"> <p>bloc 3</p></div>
-    <div class="Adama"> <p>bloc 4</p></div>
-
-</div>
-        
-</body>
+            <h2>Formulaire</h2>
+            <div id="formul">
+                <form id="mon_form">
+                    <label for="name"><strong>prénom</strong> </label><br>
+                    <input type="text" placeholder="prenom" id="class1"><br>
+                    <label for="name"><strong>nom</strong> </label><br>
+                    <input type="text" placeholder="nom" id="class2"><br>
+                    <label for="name"><strong>Email</strong> </label><br>
+                    <input type="email" placeholder="email" id="class3"><br>
+                    <label for="name"><strong>Tel</strong> </label><br>
+                    <input type="tel" placeholder="telephone" id="class4"><br>
+                    <input type="button" value="ENVOYER"  id="bouton">
+               </form>
+            </div>
+                <p id="affich">Bonjour</p>
+                <p id="erreur" ></p>
+        </body>
 </html>
