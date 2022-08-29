@@ -52,6 +52,10 @@ function recup() //function qui permet de recuperer les valeurs
     var mail = document.getElementById("class3").value;
     var numero = document.getElementById("class4").value;
     
+    if (prenom =='' || nom=='' || mail=='' || numero=='') {
+        alert("veuillez remplir tous les champs");
+        return
+    }
 
     var affichage = document.getElementById("affich"); // recuperation l'ID paragraphe affich
     affichage.innerHTML = 
@@ -60,7 +64,3 @@ function recup() //function qui permet de recuperer les valeurs
     "</br>Numéro est : "  + numero +
     "</br>Email est : "  + mail;
 }
-
-
-
-
